@@ -13,7 +13,7 @@ if hist_button:
 scatter_button = st.button('Construir gráfico de dispersión')
 if scatter_button:
     st.write('Creación de un gráfico de dispersión para el precio y el kilometraje de los coches')
-    fig = px.scatter(car_data, x="odometer", y="price", color="year")
+    fig = px.scatter(car_data, x="odometer", y="price", color="model_year")
     st.plotly_chart(fig, use_container_width=True)
 
 build_histogram = st.checkbox('Construir un histograma')
@@ -26,5 +26,5 @@ if build_histogram:
 
 if build_scatter:
     st.write('Creación de un gráfico de dispersión para el precio y el kilometraje de los coches')
-    fig = px.scatter(car_data, x="odometer", y="price", color="year")
+    fig = px.scatter(car_data, x="odometer", y="price", color="model_year")
     st.plotly_chart(fig, use_container_width=True)
