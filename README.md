@@ -16,4 +16,4 @@ Esta aplicación web analiza datos de anuncios de automóviles usados. Brinda vi
 
 3. Ejecuta la aplicación (streamlit run app.py)
 
-Enlance: https://proyecto5-04iw.onrender.com
+Enlace: https://proyecto5-04iw.onrender.com
