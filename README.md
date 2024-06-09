@@ -1,13 +1,13 @@
 # Proyecto5
 
-## Análisis de Vehículos Usados
+## Análisis de Automóviles Usados
 
-Esta aplicación web analiza datos de anuncios de vehículos usados. Brinda visualizaciones interactivas para explorar el kilometraje y el precio de los coches.
+Esta aplicación web analiza datos de anuncios de automóviles usados. Brinda visualizaciones interactivas para explorar el kilometraje y el precio de los autos.
 
 ### Funcionalidades
 
-- **Histograma**: Visualiza la distribución del kilometraje de los vehículos.
-- **Gráfico de dispersión**: Muestra la relación entre el precio y el kilometraje, coloreado por el año del vehículo.
+- **Histograma**: Visualiza la distribución del precio de los automóviles.
+- **Gráfico de dispersión**: Muestra la relación entre el precio y el kilometraje, según el año del automóvil.
 
 ### Cómo Ejecutar la Aplicación
 
