@@ -6,8 +6,8 @@ st.header('Automóviles')
 
 hist_button = st.button('Histograma')
 if hist_button:
-    st.write('Precio de los automóviles')
-    fig = px.histogram(car_data, x="price")
+    st.write('Kilometraje de los automóviles')
+    fig = px.histogram(car_data, x="odometer")
     st.plotly_chart(fig, use_container_width=True)
 
 scatter_button = st.button('Gráfico de dispersión')
@@ -20,8 +20,8 @@ build_histogram = st.checkbox('Construir un histograma')
 build_scatter = st.checkbox('Construir un gráfico de dispersión')
 
 if build_histogram:
-    st.write('Histograma del precio de los automóviles')
-    fig = px.histogram(car_data, x="price")
+    st.write('Histograma del kilometraje de los automóviles')
+    fig = px.histogram(car_data, x="odometer")
     st.plotly_chart(fig, use_container_width=True)
 
 if build_scatter:
