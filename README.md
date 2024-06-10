@@ -6,7 +6,7 @@ Esta aplicación web analiza datos de anuncios de automóviles usados. Brinda vi
 
 ### Funcionalidades
 
-- **Histograma**: Visualiza la distribución del precio de los automóviles.
+- **Histograma**: Visualiza la distribución del kilometraje de los automóviles.
 - **Gráfico de dispersión**: Muestra la relación entre el precio y el kilometraje, según el año del automóvil.
 
 ### Cómo Ejecutar la Aplicación
